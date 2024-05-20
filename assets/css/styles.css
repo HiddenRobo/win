@@ -272,8 +272,46 @@ img {
   /* background-color: rgb(150, 114, 23); */
   border-radius: 20px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   box-sizing: border-box;
   /* padding-left: 50%;
   padding-right: 50%; */
+}
+
+.user_amount{
+  background-color: #e6c87f ;
+  border-radius: 4px;
+  display: flex;
+  justify-content: start;
+}
+.bi{
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.bii{
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.user_icon{
+  width: 7%;
+}
+.user_name{
+  color: black;
+  width: 70%;
+  /* background-color: red; */
+  margin-left:25px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.notificationLOG{
+  width: 23%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: end;
 }
