@@ -271,15 +271,16 @@ img {
 .home_HeaderImage{
   /* background-color: rgb(150, 114, 23); */
   border-radius: 20px;
-  display: flex;
+   
   /* justify-content: center; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* padding-left: 50%;
   padding-right: 50%; */
 }
 
 .user_amount{
   background-color: #e6c87f ;
+  margin-top: 10px;
   border-radius: 4px;
   display: flex;
   justify-content: start;
@@ -317,18 +318,53 @@ img {
 }
 
 
-.middel_case{
-  /* background-color: green; */
+.middel_case_1{
   display: flex;
   justify-content: space-around;
   color: black;
   font-family: var(--body-font);
+  
 }
 
-.c1 ,.c2 ,.c3 {
+
+.c1 ,.c2 ,.c3{
   background-color: #e6c87f;
-  margin: 20px;
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 10px;
+  border-radius: 8px;
+  width: 30%;
+  margin-top: 20px;
 }
+
+.c1_1 ,.c2_1 ,.c3_1 {
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.c1_2,.c2_2,.c3_2,.c4_2,.c5_2,.c6_2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.middel_case_2{
+  background-color: #e6c87f;
+  color: black;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--body-font);
+}
+
+
+.c4,.c5,.c6{
+  width: 30%;
+  margin-top: 20px;
+}
+.c4_1,.c5_1,.c6_1{
+  display: flex;
+  justify-content: center;
+}
+
