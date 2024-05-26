@@ -413,3 +413,33 @@ img {
   width: 100%;
 
 }
+
+.heading_1{
+  color: #FFF;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.h1_1{
+  color: #e6c87f;
+ 
+}
+.h1_2{
+  align-items:center;
+  margin-top: 25px;
+}
+.bar{
+  background-color: #5d5d5d;
+  color: #b2aeae;
+  border-radius: 3px;
+}
+.all_1{
+  margin-top: 10PX;
+  display: flex;
+  justify-content: space-around;
+}
+.a1,.a2{
+  margin-right: 6px;
+}
+ 
