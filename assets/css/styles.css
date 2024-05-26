@@ -75,6 +75,7 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
+  /* display: none; */
 }
 
 .section__title {
@@ -460,4 +461,92 @@ img {
 }
 .lottry{
   display: none;
+}
+
+.soon{
+  display: none;
+}
+
+.coming_soon{
+  /* background-color: #b2aeae; */
+  text-align: center;
+  color: #e6c87f;
+  /* margin-top: 150px; */
+  /* margin-left: 30px; */
+  font-size: 50px;
+}
+.clos{
+  color: #FFF;
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: xx-large;
+  /* background-color: #5d5d5d;  */
+}
+
+
+
+/* About Section Start  */
+
+.activiti_head{
+  background-color: #5d5d5d;
+  /* text-align: center; */
+}
+.active_head_img{
+  text-align: center;
+}
+.action_head_text{
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+
+p{
+  font-size: 12px;
+}
+
+.action_upper{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.svg_logo ,.svg_txt{
+  text-align: center;
+}
+
+
+.action_middel{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gifts{
+  margin-right:5px ;
+}
+.gift_txt {
+  background-color: #5d5d5d;
+  margin-top: -10px;
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: small;
+  padding-bottom: 30px;
+}
+.attendance_txt{
+  background-color: #5d5d5d;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: small;
+}
+
+.attendance{
+  margin-left: 5px;
+
+}
+.txtt{
+  color: #dad9d9;
 }
