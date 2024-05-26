@@ -343,6 +343,7 @@ img {
   border-radius: 8px;
   width: 30%;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .c1_1 ,.c2_1 ,.c3_1 {
@@ -456,4 +457,7 @@ img {
   border-radius: 20px;
   /* align-items: center; */
   text-align: center;
+}
+.lottry{
+  display: none;
 }
