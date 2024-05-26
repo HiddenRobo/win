@@ -7,6 +7,8 @@
         <!--=============== BOXICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--=============== W3.css =============-->
@@ -18,42 +20,46 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Marlon</a>
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" width="35%">
+                </a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item" >
                             <a href="#home" class="nav__link ">
-                                <i class='bx bx-home-alt nav__icon'></i>
+                                <i class='bx bxs-home nav__icon'></i>
                                 <span class="nav__name" id="nav1" onclick="homees()">Home</span>
                             </a>
                         </li>
                         
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
-                                <i class='bx bx-user nav__icon'></i>
-                                <span class="nav__name" onclick="Abouts()">About</span>
+                                <i class='bx bxs-trophy nav__icon'></i>
+                                <span class="nav__name" onclick="Abouts()">Activity</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
-                                <i class='bx bx-book-alt nav__icon'></i>
-                                <span class="nav__name" onclick="Skillss()">Skills</span>
+                                <div class="pp">
+                                    <i class='bx bxs-diamond nav__iconmain' ></i>
+                                </div>
+                                <span class="nav__name" onclick="Skillss()">Promotion</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
-                                <i class='bx bx-briefcase-alt nav__icon'></i>
-                                <span class="nav__name" onclick="Portfolios()">Portfolio</span>
+                                <i class='bx bxs-wallet nav__icon' ></i>
+                                <span class="nav__name" onclick="Portfolios()">Wallet</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#contactme" class="nav__link">
-                                <i class='bx bx-message-square-detail nav__icon'></i>
-                                <span class="nav__name" onclick="Contactmes()">Contactme</span>
+                                <i class='bx bxs-user nav__icon'></i>
+                                <span class="nav__name" onclick="Contactmes()">Account</span>
                             </a>
                         </li>
                     </ul>
