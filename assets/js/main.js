@@ -98,3 +98,8 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " w3-Illuminating";
   }
+
+  function lottry(){
+    document.getElementById("lottry").style.display = "block"
+    // alert("lottry")
+  }
