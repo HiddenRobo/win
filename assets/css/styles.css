@@ -1,4 +1,4 @@
-/*=============== GOOGLE FONTS ===============*/
+/*=============== GOOGLE FONTS 1 ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
@@ -51,6 +51,12 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
 }
 
 ul {
@@ -331,11 +337,11 @@ img {
   background-color: #e6c87f;
   border-radius: 8px;
   width: 30%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .c1_1 ,.c2_1 ,.c3_1 {
-  margin-top: 20px;
+  margin-top: -30px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -351,7 +357,7 @@ img {
 .middel_case_2{
   background-color: #e6c87f;
   color: black;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -361,7 +367,7 @@ img {
 
 .c4,.c5,.c6{
   width: 30%;
-  margin-top: 20px;
+  margin-top: 4px;
 }
 .c4_1,.c5_1,.c6_1{
   display: flex;
