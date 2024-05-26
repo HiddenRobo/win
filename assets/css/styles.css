@@ -1,4 +1,4 @@
-/*====;=========== GOOGLE FONTS ===============*/
+/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
@@ -389,7 +389,7 @@ img {
   display: flex;
   justify-content: center;
   margin-right: 10px;
-  width: 50%;
+  width: 100%;
 }
 .c8{
   background-color: #e6c87f;
@@ -397,11 +397,19 @@ img {
   display: flex;
   justify-content: center;
   margin-left: 10px;
-  width: 50%;
+  width: 100%;
+}
+
+.c7_1,.c8_1{
+  width: 100%;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
 }
 .c7_2,.c8_2{
   align-content: center;
   text-align: end;
-  margin: 20px;
+  margin: 10px;
+  width: 100%;
 
 }
