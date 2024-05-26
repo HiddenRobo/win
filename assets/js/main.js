@@ -103,3 +103,14 @@ function openCity(evt, cityName) {
     document.getElementById("lottry").style.display = "block"
     // alert("lottry")
   }
+
+  function Coming(){
+    document.getElementById("home").style.display="none"
+    document.getElementById("soon").style.display="block"
+    // alert("heee")
+  }
+
+  function cut(){
+    document.getElementById("home").style.display="block"
+    document.getElementById("soon").style.display="none"
+  }
