@@ -114,3 +114,10 @@ function openCity(evt, cityName) {
     document.getElementById("home").style.display="block"
     document.getElementById("soon").style.display="none"
   }
+
+
+  function ComingSoon(){
+    // alert("ComingSoon")
+    document.getElementById("about").style.display="none"
+    document.getElementById("soon").style.display="block"
+  }
