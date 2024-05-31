@@ -627,3 +627,99 @@ p{
   border-radius: 20px;
   color: brown;
 }
+
+.cic{
+  background-color: #5d5d5d;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  font-size: 150%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cic_txt{
+  color: #FFF;
+}
+
+
+.wallet_Head{
+  text-align: center;
+  font-size: 160%;
+  background-color: #e6c87f;
+  color: brown;
+  box-sizing: border-box;
+  padding-bottom: 13%;
+  padding-top: 10%;
+}
+.wallet_hading{
+  color: #FFF;
+}
+
+.wallet_mid{
+  background-color: #3e3d3d;;
+  text-align: center;
+  border-radius: 10px;
+  /* padding-top: -10px; */
+  margin-top: -4%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.circle_chart{
+  background-color: #3e3d3d;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-top: 10%;border-radius: 10px;
+
+  padding-bottom: 5%;
+}
+
+.chart1{
+  background-color: #3e3d3d;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 11%;
+  border: 10px solid rgb(218, 215, 215);
+  font-size: 110%;
+}
+.circle_txt{
+  /* background-color: #3e3d3d; */
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  /* padding-top: 10%; */
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin-top: -3%;
+}
+.ct_mw{
+  color: #979595;
+  margin-top: 10%;
+}
+
+.mwt_btn1{
+  width: 100%;
+  border: none;
+  background-color: #e6c87f;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: large;
+  color: brown;
+}
+.mwt_btn{
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.dwdw_main{
+  /* background-color: aliceblue */
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 10% 0%  10% 0%;
+}
