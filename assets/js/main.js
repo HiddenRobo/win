@@ -105,13 +105,13 @@ function openCity(evt, cityName) {
   }
 
   function Coming(){
-    document.getElementById("home").style.display="none"
+    document.getElementById("innerHome").style.display="none"
     document.getElementById("soon").style.display="block"
     // alert("heee")
   }
 
   function cut(){
-    document.getElementById("home").style.display="block"
+    document.getElementById("innerHome").style.display="block"
     document.getElementById("soon").style.display="none"
   }
 
@@ -121,3 +121,17 @@ function openCity(evt, cityName) {
     document.getElementById("about").style.display="none"
     document.getElementById("soon").style.display="block"
   }
+
+  function wingo1(){
+    // alert("comming soon")
+    document.getElementById("innerHome").style.display="none"
+    document.getElementById("w1min").style.display="block"
+  }
+  function back(){
+    // alert("comming soon")
+    document.getElementById("innerHome").style.display="block"
+    document.getElementById("w1min").style.display="none"
+  }
+  document.getElementById("refresh").addEventListener('click', function(){
+    location.reload();
+  });
