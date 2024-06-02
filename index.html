@@ -27,21 +27,21 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item" >
+                        <li class="nav__item" id="refresh" >
                             <a href="#home" class="nav__link ">
                                 <i class='bx bxs-home nav__icon'></i>
                                 <span class="nav__name" id="nav1" onclick="homees()">Home</span>
                             </a>
                         </li>
                         
-                        <li class="nav__item">
+                        <li class="nav__item" >
                             <a href="#about" class="nav__link">
                                 <i class='bx bxs-trophy nav__icon'></i>
                                 <span class="nav__name" onclick="Abouts()">Activity</span>
                             </a>
                         </li>
 
-                        <li class="nav__item">
+                        <li class="nav__item" >
                             <a href="#skills" class="nav__link">
                                 <div class="pp">
                                     <i class='bx bxs-diamond nav__iconmain' ></i>
@@ -50,14 +50,14 @@
                             </a>
                         </li>
 
-                        <li class="nav__item">
+                        <li class="nav__item"  >
                             <a href="#portfolio" class="nav__link">
                                 <i class='bx bxs-wallet nav__icon' ></i>
                                 <span class="nav__name" onclick="Portfolios()">Wallet</span>
                             </a>
                         </li>
 
-                        <li class="nav__item">
+                        <li class="nav__item"  >
                             <a href="#contactme" class="nav__link">
                                 <i class='bx bxs-user nav__icon'></i>
                                 <span class="nav__name" onclick="Contactmes()">Account</span>
@@ -73,8 +73,9 @@
         <main>
             <!--=============== HOME ===============-->
             <section class="container section section__height" id="home">
-                
-                <!--=================== advertisment banner ===================-->
+
+                <div class="Section_home" id="innerHome">
+                    <!--=================== advertisment banner ===================-->
                 <div class="home_HeaderImage">
                     <div class="w3-content w3-section" style="width:100%">
                         <img class="mySlides" src="assets/img/first member.png" style="width:100%">
@@ -203,7 +204,7 @@
                 <div id="All" class="w3-container  city">
                     <!-- Win Go  -->
                     <div class="all_1">
-                        <div class="a1">
+                        <div class="a1" onclick="wingo1()">
                             <img src="assets/img/a1.png" alt="">
                         </div>
 
@@ -243,21 +244,192 @@
                   </div> -->
                 
             </div>
+            </div>
+<!--                 
                 <h2 class="section__title">Home</h2>
-<br><br><br><br>
-                
-            </section>
+                <br><br><br><br> -->
+              
+                    <!-- comming soon  -->
+                <div class="soon" id="soon">
+                    <div class="clos"  onclick="cut()">
+                        <b>
+                            <~
+                        </b>
+                    </div>
+                    <div class="coming_soon w3-cursive">
+                        <b>Coming Soon</b>
+                    </div>
+                </div>
 
-<div class="soon" id="soon">
-    <div class="clos"  onclick="cut()">
-        <b>
-            <~
-                </b>
+<!------------------------- wingo1min ------------------------->
+
+<div class="wingo1min" id="w1min">
+
+    <div class="back" onclick="back()"><h1>X</h1></div>
+
+
+    <div class="wingo1min_hader_wallet">
+        <div class="wallateTxt">
+           <h4> @ wallate balance</h4>
+        </div>
+        <div class="wallateAmount">
+            <h2>₹70000.00</h2>
+        </div>
+
+        <div class="depo_withdro">
+            <button class="Depo">Deposit</button>
+            <button class="Withdro">Withdraw</button>
+        </div>
+        
     </div>
-    <div class="coming_soon w3-cursive">
-        <b>Coming Soon</b>
+
+    <!-- briti of win go game  -->
+    <div class="WinGoBrity">
+        <!-- WinGo1min -->
+        <div class="WinGo1Min">
+            <div class="WinGo1Min_logo">
+                @
+            </div>
+            <div class="WinGo1Min_txt">
+                Win Go <br> 1 Min
+            </div>
+        </div>
+        <!-- WinGo3Min -->
+        <div class="WinGo3Min">
+            <div class="WinGo3Min_logo">
+                @
+            </div>
+            <div class="WinGo3Min_txt">
+                Win Go <br> 3 Min
+            </div>
+        </div>
+        <!-- WinGo5Min -->
+        <div class="WinGo5Min">
+            <div class="WinGo5Min_logo">
+                @
+            </div>
+            <div class="WinGo5Min_txt">
+                Win Go <br> 5 Min
+            </div>
+        </div>
+        <!-- WinGo10Min  -->
+        <div class="WinGo10Min">
+            <div class="WinGo10Min_logo">
+                @
+            </div>
+            <div class="WinGo10Min_txt">
+                Win Go <br> 10 Min
+            </div>
+        </div>
+    </div>
+
+<!-------------------------- How To Play &  Timer -------------------------->
+    <div class="HTPTR">
+        <div class="HTP">
+            <button class="HTPbtn">How to play</button>
+            <p class="HTPtxt">Win Go 1 Min</p>
+            <div class="bolls">
+                <div class="boll_one">
+                    <img src="assets/img/ball0.png" alt="">
+                </div>
+                <div class="boll_two">
+                    <img src="assets/img/ball1.png" alt="">
+                </div>
+                <div class="boll_three">
+                    <img src="assets/img/ball2.png" alt="">
+                </div>
+                <div class="boll_four">
+                    <img src="assets/img/ball3.png" alt="">
+                </div>
+                <div class="boll_five">
+                    <img src="assets/img/ball4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="TR">
+            <p class="HTPtxt">Time remaining</p>
+            <div class="timer">
+                <div class="min1">0</div>
+                <div class="min2">0</div>
+                <div class="dabbleDot">:</div>
+                <div class="sec1">9</div>
+                <div class="sec2">9</div>
+            </div>
+            <h2>20240603211077</h2>
+        </div>
+    </div>
+
+<!-------------- Betting Buttons -------------->
+<!-- colors  -->
+<div class="button_main">
+    <div class="gvr">
+        <button class="g">Green</button>
+        <button class="v">Violet</button>
+        <button class="r">Red</button>
+    </div>
+    
+<!-- bolls&numbers -->
+    <div class="num">
+        <div class="num_row">
+            <div class="num_row_one">
+                <img src="assets/img/ball0.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball1.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball2.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball3.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball4.png" alt="" width="80%">
+            </div>
+        </div>
+        <div class="num_row">
+            <div class="num_row_one">
+                <img src="assets/img/ball5.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball6.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball7.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball8.png" alt="" width="80%">
+            </div>
+            <div class="num_row_one">
+                <img src="assets/img/ball9.png" alt="" width="80%">
+            </div>    
+        </div>
+
+    </div>
+
+<!-- big & small  -->
+    <div class="BigSmall">
+        <div class="big">
+            <button class="big_btn">Bid</button>
+        </div>
+        <div class="small">
+            <button class="small_btn">Small</button>
+        </div>
     </div>
 </div>
+
+
+
+
+
+ </div>
+
+            </section>
+
+
+<!-- www  -->
+
+
             <!--=============== ABOUT ===============-->
             <section class="container section section__height abouts" id="about">
                 <div class="activity_main">
@@ -418,53 +590,62 @@
 
 
                    <div class="bars">
+
                         <div class="cic">
                             <div class="cic_logo">
-                                @
+                                <img src="assets/img/copy_code-eda53ba2.png" alt="" width="60%">
                             </div>
                             <div class="cic_txt">
                                 Copy Invitation Code 
                             </div>
                             <div class="cic_number">
-                                >
+                                AA323125T
                             </div>
-                            
                         </div>
+
                         <div class="cic">
                             <div class="cic_logo">
-                                @
+                               <img src="assets/img/team_port-a127ca76.png" alt="" width="60%">
                             </div>
                             <div class="cic_txt">
                                 Subordinate data 
                             </div>
-                            <div class="cic_number">
-                                >
-                            </div>
-                            
                         </div>
+
                         <div class="cic">
                             <div class="cic_logo">
-                                @
+                                <img src="assets/img/commission-340af997.png" alt="" width="60%">
                             </div>
                             <div class="cic_txt">
                                 Commission detail 
                             </div>
-                            <div class="cic_number">
-                                >
-                            </div>
-                            
                         </div>
+
                         <div class="cic">
                             <div class="cic_logo">
-                                @
+                                <img src="assets/img/invite_reg-4c4b51a1.png" alt="" width="60%">
                             </div>
                             <div class="cic_txt">
                                  Invitation rules
                             </div>
-                            <div class="cic_number">
-                                >
+                        </div>
+
+                        <div class="cic">
+                            <div class="cic_logo">
+                                <img src="assets/img/server-f01e6593.png" alt="" width="60%">
                             </div>
-                            
+                            <div class="cic_txt">
+                                Agent line customer service
+                            </div>
+                        </div>
+
+                        <div class="cic">
+                            <div class="cic_logo">
+                                <img src="assets/img/rebateRatio-ba222dbd.png" alt="" width="60%">
+                            </div>
+                            <div class="cic_txt">
+                                 Rebate ratio
+                            </div>
                         </div>
                         
                         <br><br><br><br><br><br>
@@ -478,7 +659,9 @@
             <section class="container section section__height portfolios" id="portfolio">
                 <div class="wallet_Head">
                     <!-- <h4 class="wallet_hading">wallet</h4> -->
-                    <div class="wallet_logo">@</div>
+                    <div class="wallet_logo">
+                        <img src="assets/img/wallets-f7d6f3d6.png" alt="" width="13%">
+                    </div>
                     <div class="wallet_balence">
                         ₹0.00
                     </div>
@@ -516,7 +699,7 @@
                     <div class="dwdw_main">
                         <div class="D">
                             <div class="D_logo">
-                                @
+                                <img src="assets/img/Deposit.png" alt="" width="80%">
                             </div>
                             <div class="D_txt">
                                 Deposit
@@ -524,7 +707,7 @@
                         </div>
                         <div class="W">
                             <div class="W_logo">
-                                @
+                                <img src="assets/img/Withdrow.png" alt="" width="80%">
                             </div>
                             <div class="W_txt">
                                 Withdraw
@@ -532,7 +715,7 @@
                         </div>
                         <div class="DH">
                             <div class="DH_logo">
-                                @
+                                <img src="assets/img/Diposit.png" alt="" width="50%">
                             </div>
                             <div class="DH_txt">
                                 Deposit <br> History
@@ -540,7 +723,7 @@
                         </div>
                         <div class="WH">
                             <div class="WH_logo">
-                                @
+                                <img src="assets/img/Withdrawh.png" alt="" width="80%">
                             </div>
                             <div class="WH_txt">
                                 Withdraw <br> History
@@ -562,9 +745,214 @@
 
             <!--=============== CONTACTME ===============-->
             <section class="container section section__height contactmes" id="contactme">
-                <h2 class="section__title">Contactme</h2>
+
+
+                <div class="upper_nup">
+                    <div class="img">
+                        <img src="assets/img/perfil.png" alt="" class="account_img">
+                    </div>
+                    <div class="name_uId">
+                       <div class="name">
+                        Adil
+                       </div>
+                       <div class="uid">
+                        UID | AA1109
+                       </div>
+                    </div>
+                    <div class="notifi">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW9JREFUSEvN1T9IVlEcxvGPtCkOStCg5h9ICBrcdRBKHFyUJHRudTPRLR0kSHCUZhcJCVexUDBwdzBoKBICRRAKAgdBfa/c+w7X97z3vMqL/cbDc57vc37nd89tUOdqqLO/WgCvsJoGmsRGTLgYQCNeYxHNqelfLOADzqqBigAvsIaHAZMTjONrCFINMIZ1PMAnrGA7NXqOKYziHCP4XAkSAjzCDzRhGsuBhG9L6/M4xhP8y+tCgKWS+A0+YqLgMjcxHAoSAhziMfqwXwAYwhb2Sm3qjz3BZSpM+n9RAGjFKf6gpVZA0ZRlflmgG/qQQXBD4DT/F6ATv9KktbaoC8mAlCtv0I5ddOMAz2LeG3wrjfRT/MQAjrJ9ecB39FYSFoDa0mA9+WB5QHZZHfgdmT6TVWxtCFCj9w152TcP2MHgHd2/IPm6ryt2Sm7NjAXM4V2OMov3ReRYQKJLXtiXqWHyf5hBNhRBTiygKOj9Aa4A96M+GSiaUHcAAAAASUVORK5CYII="/>
+                    </div>
+                </div>
+
+                <div class="balence">
+                    <div class="total_balance">
+                        <p class="tb">Total balance</p>
+                        <h4>₹70000.00</h4>
+                        <hr class="hrt">
+                    </div>
+                    <div class="dwdw_acount">
+                        <div class="D">
+                            <div class="D_logo">
+                                <img src="assets/img/wallate.png" alt="" width="80%">
+                            </div>
+                            <div class="D_txt">
+                                Wallet
+                            </div>
+                        </div>
+                        <div class="W">
+                            <div class="W_logo">
+                                <img src="assets/img/Deposit.png" alt=" " width="60%">
+                            </div>
+                            <div class="W_txt">
+                                Deposit
+                            </div>
+                        </div>
+                        <div class="DH">
+                            <div class="DH_logo">
+                                <img src="assets/img/Withdrow.png" alt="" width="60%">
+                            </div>
+                            <div class="DH_txt">
+                                Withdrow
+                            </div>
+                        </div>
+                        <div class="WH">
+                            <div class="WH_logo">
+                                <img src="assets/img/VIP.png" alt="" width="60%">
+                            </div>
+                            <div class="WH_txt">
+                                VIP 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="gameH_trans">
+                    <div class="Game_histori">
+                        <div class="gh_logo">
+                            <img src="assets/img/Game History.png" alt="Game History" width="85%">
+                        </div>
+                        <div class="gh_txt">
+                            <h4>Game History</h4>
+                            <p>My game history</p>
+                        </div>
+                    </div>
+                    <div class="transaction">
+                        <div class="t_logo">
+                            <img src="assets/img/Transaction.png" alt="Game History" width="90%">
+                        </div>
+                        <div class="t_txt">
+                            <h4>Transaction</h4>
+                            <p>My transaction history</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Deposit_Withdrol">
+                    <div class="Game_histori">
+                        <div class="gh_logo">
+                            <img src="assets/img/Diposit.png" alt="Game History" width="80%">
+                        </div>
+                        <div class="gh_txt">
+                            <h4>Diposit</h4>
+                            <p>My diposit history</p>
+                        </div>
+                    </div>
+                    <div class="transaction">
+                        <div class="t_logo">
+                            <img src="assets/img/Withdrawl.png" alt="Game History" width="85%">
+                        </div>
+                        <div class="t_txt">
+                            <h4>Withdraw</h4>
+                            <p>My Withdraw history</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forboottem">
+                    <div class="forNotifi">
+                        <div class="notifi_logo">
+                            <img src="assets/img/notifyIcon-eb7c8400.png" alt="">
+                        </div>
+                        <div class="notifi_txt">Notification</div>
+                        <div class="foroprn">></div>
+                    </div>
+                    <hr class="forhr">
+                    <div class="forGift">
+                        <div class="notifi_logo">
+                            <img src="assets/img/forgift.png" alt="">
+                        </div>
+                        <div class="notifi_txt">Gift</div>
+                        <div class="foroprn">></div>
+                    </div>
+                    <hr class="forhr">
+                    <div class="forGameStationn">
+                        <div class="notifi_logo">
+                            <img src="assets/img/forgammestatics.png" alt="">
+                        </div>
+                        <div class="notifi_txt">Game statistics</div>
+                        <div class="foroprn">></div>
+                    </div>
+                    <hr class="forhr">
+                    <div class="forLanguage">
+                        <div class="notifi_logo"><img src="assets/img/languageIcon-1b8f2d0a.png" alt=""></div>
+                        <div class="notifi_txt">Language</div>
+                        <div class="foroprn">English></div>
+                    </div>
+                </div>
+
+                <div class="endbottem">
+                    <div class="endbottem_one">
+                        Service center
+                    </div>
+                    <div class="endbottem_two">
+
+                        <div class="setting">
+                            <div class="setting_logo">
+                                <img src="assets/img/settingCenter.png" alt="" width="25%">
+                            </div>
+                            <div class="setting_txt">
+                                Setting
+                            </div>
+                        </div>
+
+                        <div class="feedback">
+                            <div class="feedback_logo">
+                                <img src="assets/img/feedback.png" alt="" width="25%">
+                            </div>
+                            <div class="feedback_txt">
+                                Feedback
+                            </div>
+                        </div>
+                        
+                        <div class="Notification">
+                            <div class="Notification_logo">
+                                <img src="assets/img/n0tification.png" alt="" width="25%">
+                            </div>
+                            <div class="Notification_txt">
+                                Notification
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="endbottem_three">
+
+                        <div class="Customer_service">
+                            <div class="Customer_service_logo">
+                                <img src="assets/img/serviceCenter.png" alt="" width="25%">
+                            </div>
+                            <div class="Customer_service_txt">
+                                24/7 Customer <br> service
+                            </div>
+                        </div>
+
+                        <div class="Guide">
+                            <div class="Guide_logo">
+                                <img src="assets/img/guid.png" alt="" width="25%">
+                            </div>
+                            <div class="Guide_txt">
+                                Beginner's Guide
+                            </div>
+                        </div>
+                        
+                        <div class="About_us">
+                            <div class="About_us_logo">
+                                <img src="assets/img/about-38aa0cd6.png" alt="" width="25%">
+                            </div>
+                            <div class="About_us_txt">
+                                About us
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="logout">
+                    <button class="logout_btn">Log Out</button>
+                </div>
+                <br><br><br> <br><br>
             </section>
         </main>
+
+
         
 
         <!--=============== MAIN JS ===============-->
